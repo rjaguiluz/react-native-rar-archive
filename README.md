@@ -2,6 +2,11 @@
 
 unrar for react native
 
+## 🔧 Changes from the original version
+
+- Removed TurboModules support to ensure compatibility with the classic React Native architecture.
+- Modified RarArchive.h and RarArchive.mm for immediate usage in projects without the new architecture.
+
 ## Installation
 
 ```sh
