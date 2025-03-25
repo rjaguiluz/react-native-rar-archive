@@ -1,6 +1,6 @@
 #import "RarArchive.h"
 
-@implementation RarArchive : NSObject <RCTBridgeModule>
+@implementation RarArchive
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(unrar:(NSString *)from
